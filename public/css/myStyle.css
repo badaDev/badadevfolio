@@ -1,0 +1,77 @@
+.my-logo{
+    width: 200px;
+    height: auto;
+}
+
+.my-profileImg{
+    width: 350px;
+    height: auto;
+}
+
+.my-fontawesome{
+    font-size: 20px !important;
+    min-width: 80px !important;
+    height: 80px !important;
+    /* padding: 5px !important; */
+    border-color: #7C84DC !important;
+    color: #7C84DC !important;
+}
+
+.my-social-icon{
+    background-color: #141CDC !important;
+}
+
+.welcome-text{
+    color: #7C84DC !important;
+}
+
+.my-button{
+    background-color: #7C84DC !important;
+}
+
+.my-skills-btn{
+    border-color: #7C84DC !important;
+}
+
+.progress-bar{
+    background-color: #7C84DC !important;
+}
+
+.my-contact-icon{
+    color: #7C84DC !important;
+}
+
+.myform:focus{
+    border-color: #7C84DC !important;
+}
+
+/* typewritter text */
+h1.big, .h1_big {
+    font-size: 62px;
+    margin: 0;
+    line-height: 70px;
+}
+
+
+
+
+/* for mobile screens */
+@media only screen and (max-width: 750px) {
+    .my-logo{
+        width: 70px;
+        height: auto;
+    }
+
+    .my-modal-button{
+        font-size: 10px !important;
+    }
+
+    /* typewritter text */
+    h1.big, .h1_big {
+        font-size: 30px;
+        margin: 0;
+        line-height: 50px;
+    }
+
+    
+}

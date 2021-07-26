@@ -1,0 +1,30 @@
+{
+  "name": "badadevfolio",
+  "version": "0.0.0",
+  "server": false,
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "serve": "turbo devserver",
+    "test": "",
+    "build": "",
+    "postinstall": "turbo postinstall",
+    "reset": "rimraf ./tmp/*"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "nodemailer": "^6.6.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "path": "^0.12.7",
+    "turbo360": "^1.8.69",
+    "vertex360": "^0.30.39"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "rimraf": "^2.6.2"
+  },
+  "format": "vertex"
+}
